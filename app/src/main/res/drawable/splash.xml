@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by M1028379 on 12/12/2019
+  ~ Copyright (c) REALOGY. CARTUS 2019 .
+  ~ All rights reserved.
+  ~ Last modified 12/12/19 2:02 PM
+  -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:opacity="opaque">
+
+    <item android:drawable="@drawable/home_bg"/>
+
+    <item
+            android:drawable="@drawable/home_bg"
+            android:gravity="center"/>
+</layer-list>

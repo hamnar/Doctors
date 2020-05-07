@@ -1,0 +1,27 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/footer_doctortype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatCheckedTextView
+                android:id="@+id/txt_doctorlistitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:textAlignment="center"
+                android:text="@string/adult_primarycare"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:drawablePadding="@dimen/margin_10"
+                android:drawableTop="@drawable/adultprimarycare"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

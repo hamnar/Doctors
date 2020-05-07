@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bright_blue">#ff007dc1</color>
+    <color name="medium_blue">#ff46b3e9</color>
+    <color name="light_blue">#ffa9e6fd</color>
+    <color name="dark_green">#ff4cbf9c</color>
+    <color name="light_green">#ff4cdb82</color>
+    <color name="charcoal">#ff5d5d5d</color>
+    <color name="dark_gray">#ffabadac</color>
+    <color name="medium_gray">#ffc2c3c3</color>
+    <color name="light_gray">#ffe6e6e8</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="maroon">#ffd93934</color>
+    <color name="white_color">#ffffff</color>
+    <color name="appbar">#2DBD5F</color>
+    <color name="listitemcolor">#333939</color>
+    <color name="grey">#C3C3C3</color>
+    <color name="orange">#FF7043</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="loginbg">#FF7043</color>
+    <color name="green">#2DBD5F</color>
+    <color name="radiobtngreen">#2CBD5E</color>
+    <color name="radiotxtcolor">#888888</color>
+    <color name="statusgreen">#28AA54</color>
+    <color name="permissioneditbox">#4D4D4D</color>
+    <color name="transparentwhite">#00000000</color>
+    <color name="rippelColor">@color/green</color>
+    <color name="darktone">#16224e</color>
+
+    <!-- branding colors -->
+    <color name="network_error_background">#3a67ed</color>
+    <!-- login screen-->
+    <color name="app_blue">#246df1</color>
+    <color name="app_grey">#bbbece</color>
+    <color name="app_mid_night_blue">#16224e</color>
+    <color name="app_red">#e2103d</color>
+    <color name="app_safron">#f7e4e9</color>
+    <color name="app_disable">#afb2bf</color>
+    <color name="color_alpha_50_transparent">#CC16224e</color>
+
+    <color name="draft_round_corner_bg">#cdcdcd</color>
+    <color name="tab_title">#417fe5</color>
+    <color name="checked">#ecf3f9</color>
+    <color name="error_box_bg">#fbe7ea</color>
+    <color name="radio_background_selected_colour">#34246df1</color>
+    <color name="tab_unselected_color">#A9A9AA</color>
+    <color name="propertyhint">#606060</color>
+    <color name="oval_round_color">#ECF3F9</color>
+    <!--    <color name="darktone">#16224e</color>
+     <color name="submitagr_headerview_bg">#ecf3f9</color>-->
+    <color name="lightgrey">#AAAAAA</color>
+
+
+</resources>

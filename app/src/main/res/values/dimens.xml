@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_padding">20dp</dimen>
+    <dimen name="vertical_padding">10dp</dimen>
+    <dimen name="scroll_view_height">300dp</dimen>
+    <dimen name="activity_margin_start">20dp</dimen>
+    <dimen name="activity_margin_end">20dp</dimen>
+    <dimen name="progress_bar_width">50dp</dimen>
+    <dimen name="progress_margin">7dp</dimen>
+    <dimen name="progress_bar_height">100dp</dimen>
+    <dimen name="network_error_corner_radius">20dp</dimen>
+    <dimen name="network_error_content_padding">15dp</dimen>
+    <dimen name="network_error_text_size">18sp</dimen>
+    <dimen name="network_error_text_padding">10dp</dimen>
+    <dimen name="network_error_popup_margin_start">15dp</dimen>
+    <dimen name="network_error_popup_margin_end">15dp</dimen>
+    <dimen name="network_error_popup_margin_top">10dp</dimen>
+    <dimen name="network_error_cancel_text">20sp</dimen>
+    <dimen name="network_error_cancel_top_margin">10dp</dimen>
+    <dimen name="cartus_logo_margin_top">25dp</dimen>
+    <dimen name="welocme_screen_text_size">35sp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="dialog_width_280">280dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="exact_margin_20">20dp</dimen>
+    <dimen name="exact_margin_5">5dp</dimen>
+    <dimen name="exact_margin_50">50dp</dimen>
+    <dimen name="exact_margin_30">30dp</dimen>
+    <dimen name="exact_margin_10">10dp</dimen>
+    <dimen name="login_margin_34">0dp</dimen>
+
+    <!-- Home Screen -->
+    <dimen name="home_salevolume">5dp</dimen>
+    <dimen name="total_referalearning">15dp</dimen>
+    <dimen name="txt_value_total_referalearning">20dp</dimen>
+    <dimen name="home_linearview_referalearning">45dp</dimen>
+    <dimen name="img_notification_padding">6dp</dimen>
+    <dimen name="home_recyclerbottom">60dp</dimen>
+    <dimen name="total_brokertobrokersales_volume">20sp</dimen>
+    <dimen name="total_brokertobrokersales_volume_values">25sp</dimen>
+    <dimen name="agent_firstlastname">15sp</dimen>
+    <dimen name="userexperinece">15sp</dimen>
+
+    <dimen name="txt_total_referalearnings">20sp</dimen>
+    <dimen name="txtsize_value_referalearnings">16sp</dimen>
+    <dimen name="home_menu_griditem_title">16sp</dimen>
+    <dimen name="draft_text_top_margin">8dp</dimen>
+    <dimen name="draft_drawable_padding">14dp</dimen>
+    <dimen name="draft_constrain_padding">10dp</dimen>
+    <dimen name="draft_constrain_width">0dp</dimen>
+    <dimen name="draft_parent_layout_margin">8dp</dimen>
+    <dimen name="draft_layout_top_margin">14dp</dimen>
+
+    <dimen name="custom_popup_padding">30dp</dimen>
+    <dimen name="custom_popup_text_margin_top">50dp</dimen>
+    <dimen name="custom_popup_text_size_20sp">20sp</dimen>
+    <dimen name="custom_popup_radio_margin_left">20dp</dimen>
+    <dimen name="custom_popup_radio_margin_right">4dp</dimen>
+    <dimen name="custom_popup_image_margin_top">8dp</dimen>
+    <dimen name="custom_popup_image_margin_bottom">30dp</dimen>
+    <dimen name="custom_popup_image_margin_end">20dp</dimen>
+    <dimen name="card_corner_radious">18dp</dimen>
+    <dimen name="card_elevation">20dp</dimen>
+    <dimen name="custom_popup_layout_padding">12dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="close_btn_padding">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="border_radius">1dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+
+    // image height and width
+    <dimen name="home_menu_image_height">80sp</dimen>
+    <dimen name="home_menu_image_width">80sp</dimen>
+    <dimen name="popup_padding">10dp</dimen>
+    <dimen name="text_size_30">40sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="view_width">1dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="user_image_width">80dp</dimen>
+    <dimen name="user_image_height">80dp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_50">50sp</dimen>
+    <dimen name="text_size_45">45dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_180">180dp</dimen>
+    <dimen name="margin_210">210dp</dimen>
+    <dimen name="margin_230">230dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+
+    <dimen name="margin_6">6dp</dimen>
+
+    //Manage Referral
+    <dimen name="top_vertical_line_height">20dp</dimen>
+    <dimen name="referral_expand_parent_height">40dp</dimen>
+    <dimen name="submit_button_width">170dp</dimen>
+    <dimen name="property_type_height_small">30dp</dimen>
+
+
+</resources>

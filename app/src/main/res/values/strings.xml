@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">docter</string>
+
+    <string name="findby_specilities">Find By Speciality</string>
+    <string name="findby_doctorname">Find By Doctor Name</string>
+    <string name="findadoctorcom">Find a Doctor.com</string>
+    <string name="doctor_type">Doctor Type</string>
+    <string name="speciality">Speciality</string>
+    <string name="sub_specialitydoctor_type">Sub Speciality(Optional)</string>
+
+    <!--doctor_type-->
+    <string name="adult_primarycare">Adult- \n Primary Care</string>
+    <string name="adult_specialist">Adult- \n Specialist</string>
+    <string name="children_specialist">Children- \n Specialist</string>
+    <string name="children_primarycare">Children \n -Primary Care</string>
+    <string name="adolescent">Adolescent</string>
+
+    <!--doctor_btn-->
+    <string name="distance">Distance</string>
+    <string name="miles">Miles</string>
+
+    <string name="search_doctors">Search Doctors</string>
+    <string name="doctors">Doctors</string>
+    <string name="doctorname">Doctor Name</string>
+    <string name="no_internet_error_message">No internet connectivity. Please check mobile/WiFi settings.</string>
+
+    //Google places adapter
+
+    <string name="error_processing_places_api">Error processing Places API URL</string>
+    <string name="error_connecting_to_places_api">Error connecting to Places API</string>
+    <string name="error_cannot_process_json_results">Cannot process JSON results</string>
+    <string name="error_lib_not_initialized">Please initialize the api before using it</string>
+    <string name="home">Home</string>
+    <string name="doctorprofile">Doctor Profile</string>
+    <string name="getdirection">Get Direction</string>
+    <string name="gender">GENDER</string>
+    <string name="specialist">SPECIALITY</string>
+    <string name="office_location">OFFICE LOCATION</string>
+    <string name="languagespoken_doctor">LANGUAGE SPOKEN DOCTOR</string>
+    <string name="languagespoken_staff">LANGUAGE SPOKEN STAFF</string>
+    <string name="enterdoctername">Enter Doctor name</string>
+
+    //API error messages
+    <string name="not_found">No result found</string>
+    <string name="not_found404">Not Found</string>
+    <string name="internal_serverError500">Internal Server Error</string>
+    <string name="bad_gateway502">Bad Gateway</string>
+    <string name="service_unavailable503">ServiceUnavailable</string>
+    <string name="gateway_timeout504">Gateway Timeout</string>
+    <string name="request_time_out">Request timed out</string>
+    <string name="bad_request400">Bad Request</string>
+    <string name="unauthorized401">Unauthorized</string>
+    <string name="auth_code_invalid">The authorization code is invalid or has expired.</string>
+    <string name="refresh_token_invalid">The refresh token is invalid or expired.</string>
+    <string name="authorization_error">Session Token is expired or already used. Please use try again</string>
+    <string name="male">Male</string>
+    <string name="female">FEMALE</string>
+
+</resources>
