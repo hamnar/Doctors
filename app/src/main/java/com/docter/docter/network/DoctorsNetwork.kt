@@ -227,7 +227,6 @@ object DoctorsNetwork {
     ) {
         val gson = Gson()
         val jsonString = gson.toJson(searchedItemList)
-        Log.e("reqSearchedDoctorbyType", jsonString)
         val api =
             DoctersInjectorUtils.retrofitInstance?.create(DoctorsApi::class.java)
 
