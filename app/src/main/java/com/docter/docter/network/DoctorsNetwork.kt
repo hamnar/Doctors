@@ -249,7 +249,7 @@ object DoctorsNetwork {
                 } catch (e: HttpException) {
                     Log.d(
                         SearchDoctor::class.java.name,
-                        "getSearchedDoctorbyType HttpException"
+                        "getSearchedDoctorbyType "
                     )
                 }
             }
