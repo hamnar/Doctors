@@ -6,11 +6,6 @@ import retrofit2.http.*
 
 interface DoctorsApi {
 
-    /*StateWisedialy SEARCH*/
-
-    @GET("states_daily.json")
-    suspend fun getStatewise(): (Response<StateWiseBase>?)
-
     /*LOCATION SEARCH*/
     @Headers("Accept: application/json")
     @GET("search/city/{name}")

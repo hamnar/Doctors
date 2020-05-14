@@ -10,7 +10,6 @@ import com.docter.docter.lisener.*
 import com.docter.docter.responseModel.LocationSearchResponseModel
 import com.docter.docter.responseModel.SearchedItemList
 import com.docter.docter.ui.splash.SearchDoctor
-import com.docter.docter.ui.splash.Statewise
 import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -258,38 +257,5 @@ object DoctorsNetwork {
     }
 
 
-    //Function to call getAllDoctorType Api
-    fun getStatewiseDaily(stateWiseListener: StateWiseListener) {
-        val api =
-            CovidInjectorUtils.retrofitInstance?.create(DoctorsApi::class.java)
-        Log.d(Statewise::class.java.name, "getStatewiseDaily Success" + api)
-        CoroutineScope(Dispatchers.IO).launch {
-            val response = api?.getStatewise()
-            withContext(Dispatchers.Main) {
-                try {
-                    when (response?.code()) {
-                        AppConfig.NETWORK_SUCCESS -> {
-                            Log.d(
-                                Statewise::class.java.name,
-                                "getStatewiseDaily Success" + response.body()
-                            )
-
-                            stateWiseListener.onStateWiseSuccess(response.body())
-
-                        }
-                        else -> {
-                            stateWiseListener.onStateWiseFailure()
-                        }
-                    }
-
-                } catch (e: HttpException) {
-                    Log.d(
-                        SearchDoctor::class.java.name,
-                        "Doctortype  HttpException"
-                    )
-                }
-            }
-        }
-    }
 
 }
